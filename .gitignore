@@ -1,0 +1,57 @@
+# Uploads (runtime generated)
+uploads/
+
+# Backend
+backend/build/
+backend/.gradle/
+backend/out/
+backend/bin/
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# H2 Database Files
+data/
+*.db
+*.mv.db
+*.trace.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+backend/.env
+frontend/.env
+
+# IDE Files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# OS Files
+Thumbs.db
+.directory
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+
+# Temporary Files
+*.tmp
+*.temp
